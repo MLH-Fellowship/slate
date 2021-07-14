@@ -28,6 +28,7 @@
     "serve": "cd ./site && next",
     "start": "npm-run-all --parallel --print-label watch serve",
     "test": "mocha --require ./config/babel/register.cjs ./packages/*/test/index.js",
+    "test:react": "mocha --require ./config/babel/register.cjs --require global-jsdom/register ./packages/slate-react/test/index.js",
     "test:custom": "mocha --require ./config/babel/register.cjs ./packages/slate/test/index.js",
     "test:inspect": "yarn test --inspect-brk",
     "test:integration": "run-p -r serve cypress:run",
