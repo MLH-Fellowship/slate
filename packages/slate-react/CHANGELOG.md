@@ -1,5 +1,11 @@
 # slate-react
 
+## 0.118.2
+
+### Patch Changes
+
+- [#5959](https://github.com/ianstormtaylor/slate/pull/5959) [`622fb115`](https://github.com/ianstormtaylor/slate/commit/622fb11530811fffae284d463de1f49a1ef217a1) Thanks [@hiteshshetty-dev](https://github.com/hiteshshetty-dev)! - Adds translate='no' to Editable component to skip DOM from translation
+
 ## 0.117.4
 
 ### Patch Changes
